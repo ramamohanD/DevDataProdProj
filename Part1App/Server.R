@@ -10,5 +10,4 @@ shinyServer (function (input, output) {
       geom_smooth (method = input$smoother)
   })
   
-  #output$mean <- mean(ToothGrowth[names(ToothGrowth)==input$x])
 })
